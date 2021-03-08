@@ -218,7 +218,7 @@ class SideBar extends React.Component {
                   <div>
                     <b>
                       Sum Total:{" "}
-                      {this.totalPrice(data.products, this.state.cart)}
+                      {this.state.currency+" "}{this.totalPrice(data.products, this.state.cart)}
                     </b>
                   </div>
                 </div>
